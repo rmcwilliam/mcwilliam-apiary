@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 export default () => (
     <div>
         <Header headerText="McWilliam Apiary" />
-        <Link style={{ color: `black` }} to="/about/">
-            About
+        <Link style={{ color: `black` }} to="/">
+            Home
         </Link>
         <p>
             <Link style={{ color: `black` }} to="/contact/">
@@ -14,7 +14,8 @@ export default () => (
             </Link>
         </p>
         <p style={{ fontSize: 18, color: `black` }}>
-            Bees are complex and fascinating creatures.
+            I attempt to keep bees alive. Sometimes I get to harvest some of
+            their extra honey
         </p>
     </div>
 );
