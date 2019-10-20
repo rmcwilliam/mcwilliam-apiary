@@ -1,17 +1,13 @@
 import React from "react";
 import Header from "../components/header";
-import { Link } from "gatsby";
+import Link from "../components/link";
 
 export default () => (
     <div>
         <Header headerText="McWilliam Apiary" />
-        <Link style={{ color: `black` }} to="/">
-            Home
-        </Link>
+        <Link path="/" text="Home" />
         <p>
-            <Link style={{ color: `black` }} to="/contact/">
-                Contact
-            </Link>
+            <Link path="/contact/" text="Contact" />
         </p>
         <p style={{ fontSize: 18, color: `black` }}>
             I attempt to keep bees alive. Sometimes I get to harvest some of

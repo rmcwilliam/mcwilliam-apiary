@@ -1,17 +1,13 @@
 import React from "react";
 import Header from "../components/header";
-import { Link } from "gatsby";
+import Link from "../components/link";
 
 export default () => (
     <div>
         <Header headerText="McWilliam Apiary" />
-        <Link style={{ color: `black` }} to="/about/">
-            About
-        </Link>
+        <Link path="/about/" text="About" />
         <p>
-            <Link style={{ color: `black` }} to="/contact/">
-                Contact
-            </Link>
+            <Link path="/contact/" text="Contact" />
         </p>
         <p style={{ fontSize: 18, color: `black` }}>
             Bees are complex and fascinating creatures.
