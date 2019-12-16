@@ -9,9 +9,5 @@ export default () => (
         <p>
             <Link path="/about/" text="About" />
         </p>
-        <p style={{ fontSize: 18, color: `black` }}>
-            Please reach out if you would like to buy some honey or just want to
-            open up a box of bees.
-        </p>
     </div>
 );

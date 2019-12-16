@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default props => (
-    <Link to={props.path} style={{ color: `black` }}>
-        {props.text}
-    </Link>
-);
+const StyledLink = styled(Link)`
+    text-decoration: none;
+`;
+
+export default props => <StyledLink to={props.path}>{props.text}</StyledLink>;

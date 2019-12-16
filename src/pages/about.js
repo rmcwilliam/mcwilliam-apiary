@@ -11,7 +11,7 @@ export default () => (
         </p>
         <p style={{ fontSize: 18, color: `black` }}>
             I attempt to keep bees alive. Sometimes I get to harvest some of
-            their extra honey
+            their extra honey.
         </p>
     </div>
 );
